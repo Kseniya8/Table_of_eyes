@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Table of eyes</title>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <table class="table_eyes">
+                <caption>table of eyes</caption>
+
+                <thead>
+                    <tr class="th_captions">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>About</th>
+                        <th>Eye Color</th>
+                    </tr>
+                    <tr class="td_show_hide">
+                        <td>show/hide1</td>
+                        <td>show/hide</td>
+                        <td>show/hide</td>
+                        <td>show/hide</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Здесь появляется массив данных-->
+                </tbody>
+            </table>
+
+            <button class="button_More"">more..</button>
+        </div>
+
+         <div class=" container" id="editingForm">
+                <label for="firstname"><b>First Name</b></label>
+                <input type="text" placeholder="First Name" name="firstName">
+
+                <label for="lastName"><b>Last Name</b></label>
+                <input type="text" placeholder="Last Name" name="lastName">
+
+                <label for="about"><b>About</b></label>
+                <textarea type="text" cols="40" rows="5" placeholder="About" name="about"></textarea>
+
+                <label for="colorOfEye"><b>Color of eye</b></label>
+                <input type="text" placeholder="Color of eye" name="colorOfEye">
+        </div>
+    </div>
+
+    <script src=" ./script.js" type="module"></script>
+</body>
+
+</html>
